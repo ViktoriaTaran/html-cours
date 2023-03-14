@@ -1,0 +1,138 @@
+* {
+	box-sizing: border-box;
+
+}
+
+body { 
+	margin: 0;
+	font-size: 30px;	
+	line-height: 1.4;
+	color: darkblue;
+
+}
+
+small {
+	font-size: 14px;
+	line-height: 1.1;
+
+}
+
+.box {
+/*	min-height: 50px;*/
+	display: inline-block;
+	vertical-align: top;
+/*	middle, bottom, baseline;*/
+	background-color: red
+}
+table, tr, td {
+	border: 1px solid green;
+	border-collapse: collapse;
+
+}
+td {
+	height: 300px;
+}
+
+.about {
+	min-height: 200px;
+	background-color: orange;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.container {
+	max-width: 1200px;
+	background-color: aqua;
+	margin: auto;
+}
+
+.about-img {
+	display: block;
+	max-width: 300px;
+	max-height: 100px;
+	margin: 10px auto 0;
+}
+
+.main-btn {
+	display: inline-block;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin: auto;
+
+}
+.btn-wrap {
+	text-align: center;
+}
+
+.contacts {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background-color: silver;
+
+}
+
+.w40p, .w60p {
+min-height: 100px;
+float: left;
+
+}
+
+.w40p {
+width: 40%;
+background: red;
+}
+
+.w60p {
+width: 60%;
+background: olive;
+}
+
+.contacts .container {
+padding: 10px;
+
+}
+
+.clear {
+	clear: both;
+}
+
+.flax-section {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+ .flax-item {
+ 	width: 200px;
+ 	height: 200px;
+ 	background: lightcoral;
+ 	margin: 5px;
+
+ }
+
+.ab-img {
+min-height: 100px;
+float: left;
+display: block;
+height: 300px;
+width: 400px;
+padding-right: 20px;
+}
+
+.abo-img {
+min-height: 100px;
+float: right;
+display: block;
+height: 300px;
+width: 400px;
+padding-right: 20px;
+max-width: 1200px;
+}
+
+.text {
+	max-width: 1200px;
+}
+
+
+
+
+
+
